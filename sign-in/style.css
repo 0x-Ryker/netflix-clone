@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* width: 100%; */
+    /* min-height: 100%; */
+    background-image: url(bg-img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+/* a {
+    color: white;
+} */
+
+nav img {
+    width: 15%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blueviolet; */
+}
+
+.container-form {
+    /* width: 80%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    background-color:rgba(0, 0, 0, 0.9);
+    min-height: 100vh;
+}
+
+.container-form > input {
+    width: 60%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-style: none;
+    outline-style: none;
+    
+}
+
+.container-form > button {
+    margin-top: 15px;
+    width: 60%;
+    padding: 15px;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.form-btm-text {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 70px;
+}
+
+.checkbox-text {
+    display: flex;
+    gap: 2px;
+}
+
+.form-bottom-text {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-heading {
+    position: relative;
+    top: -40px;
+    right: 95px;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+input[type=checkbox]:checked {
+    accent-color: rgb(51, 50, 50);
+}
+
+
+/* Footer section */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color:rgba(0, 0, 0, 0.9);
+    margin-top: 80px;
+    padding: 50px;
+}
+
+.footer-flex-items {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    /* gap: 50px; */
+    
+    
+}
+
+.flexed-items {
+    margin-right: 80px;
+}
+
+.flexed-items > div {
+    margin-bottom: 10px;
+}
