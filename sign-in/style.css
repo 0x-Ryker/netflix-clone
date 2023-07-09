@@ -5,8 +5,6 @@
 }
 
 body {
-    /* width: 100%; */
-    /* min-height: 100%; */
     background-image: url(bg-img2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,9 +16,6 @@ main {
     flex-direction: column;
     color: white;
 }
-/* a {
-    color: blue;
-} */
 
 nav img {
     width: 15%;
@@ -31,11 +26,9 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background-color: blueviolet; */
 }
 
 .container-form {
-    /* width: 80%; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -107,7 +100,6 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
     flex-wrap: wrap;
     gap: 20px;
     background-color:rgba(0, 0, 0, 0.9);
@@ -118,11 +110,7 @@ footer {
 .footer-flex-items {
     display: flex;
     align-items: center;
-    /* justify-content: center; */
     flex-wrap: wrap;
-    /* gap: 50px; */
-    
-    
 }
 
 .flexed-items {
@@ -136,21 +124,6 @@ footer {
 
 /* javascript validation */
 
-/* .error #emailError,
-.error #passwordError {
-  color: #e87c03;
-  position: relative;
-  bottom: 15px;
-  text-align: left;
-}
-.error #emailError {
-    right: 25px;
-}
-.error #passwordError {
-    right: 19px;
-    
-} */
-
 .error #emailError,
 .error #passwordError {
     width: 60%;
@@ -160,16 +133,8 @@ footer {
 }
 
 .error #passwordError {
-    bottom: 30px;
+    bottom: 15px;
 }
-/* #password, #email {
-    position: relative;
-} */
-.error input {
-  border-bottom: 3px solid #e87c03;
-}
-
-
 
 .msg {
     display: none;
@@ -177,30 +142,11 @@ footer {
   
 
 
-  /* Password Toggle Visibility */
-
-  .container-form i {
-    margin-left: -30px;
-    
-}
-
-#togglePassword {
-    cursor: pointer;
-    position: relative;
-    bottom: 50px;
-    color: rgb(151, 150, 150);
-    left: 150px;
-    
-}
-
-
 
 /* media queries */
 
 @media screen and (max-width: 740px) {
     body {
-        /* width: 100%; */
-        /* min-height: 100%; */
         background-image: url();
         background-color: black;
     }
@@ -208,7 +154,6 @@ footer {
     footer {
         display: flex;
         justify-content: center;
-        /* align-items: center; */
         margin-top: 0px;
         
     }
@@ -216,10 +161,7 @@ footer {
     .footer-flex-items {
         display: flex;
         align-items: center;
-        /* justify-content: center; */
         flex-wrap: wrap;
-        /* gap: 50px; */
-    
     }
 
     nav img {
@@ -232,21 +174,6 @@ footer {
     width: 80%;
 }
 
-.error #passwordError {
-    top: -15px;
-}
-
-#togglePassword {
-    position: absolute;
-    /* bottom: 50px; */
-    /* color: rgb(151, 150, 150); */
-    /* left: 250px;
-    width: 10rem; */
-    left: 450px;
-    bottom: 270px;
-}
-
-/*  */
 
 section {
     border-bottom: 3px solid gray;
@@ -257,8 +184,6 @@ section {
     width: 100%;
     
 }
-
-
 
 .container-form > input {
     width: 80%;
