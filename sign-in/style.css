@@ -91,6 +91,12 @@ section {
 
 input[type=checkbox]:checked {
     accent-color: rgb(51, 50, 50);
+    
+}
+
+input {
+    background-color: rgb(51, 50, 50);
+    color: white;
 }
 
 
