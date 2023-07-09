@@ -56,9 +56,10 @@ email.addEventListener("focusout", (e)=>{
 password.addEventListener("focusout", (e)=>{
     if(!validatePassword(password)){
         password.style.borderColor = "#e87c03";
-        generateError("password", "Your password must contain between 4 and 60 \ncharacters.");
+        generateError("password", "Your password must contain between 4 and 60 characters.");
         password.parentElement.classList.add("error");
     }
+
 });
 
 
