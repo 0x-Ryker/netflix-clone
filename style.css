@@ -50,6 +50,11 @@ nav button {
     border-radius: 5px;
 }
 
+button a {
+    text-decoration: none;
+    color: white;
+}
+
 /* Header section */
 
 header {
@@ -132,17 +137,8 @@ aside div p {
     font-weight: 500;
 }
 
-/* aside img {
-    width: 40%;
-} */
-
-/* aside div {
-    width: 40%;
-} */
-
 .aside-3 {
     display: flex;
-    /* justify-content: flex-start; */
     align-content: center;
     height: 15vh;
     gap: 0px;
@@ -151,7 +147,6 @@ aside div p {
 .aside-div {
     height: 15vh;
     gap: 0px;
-    /* justify-self: start; */
 }
 
 
@@ -159,9 +154,6 @@ aside div p {
 
 .single-element {
     color: white;
-    
-    /* padding: 20px 130px; */
-    
     border-bottom: 8px solid gray;
 }
 
@@ -208,7 +200,6 @@ aside div p {
     background-color: #413f3f;
     color: white;
     cursor: pointer;
-    /* padding: 18px; */
     width: 100%;
     border: none;
     text-align: left;
@@ -216,7 +207,6 @@ aside div p {
     font-size: 15px;
     transition: 0.4s;
     border-radius: 0;
-    /* margin-bottom: 10px; */
     width: 80%;
     padding: 25px;
   }
@@ -309,21 +299,13 @@ footer {
     justify-content: center;
     padding: 50px;
     color: rgb(175, 171, 171);
-    /* align-items: flex-start; */
-    /* padding-left: 100px; */
     
 }
 
 .footer-flex-container {
     display: flex;
-    /* justify-content:space-around; */
     align-items: center;
     flex-wrap: wrap;
-    /* gap: 100px; */
-    /* margin-bottom: 30px; */
-    /* margin-right: 150px; */
-    
-    
 }
 
 .footer-flex-items {
@@ -354,8 +336,6 @@ footer a {
 .top-of-footer {
     color: rgb(175, 171, 171);
     text-decoration-color: white;
-    /* align-self: center; */
-    /* align-content: space-around; */
 }
 
 .footer-select-form {
@@ -370,23 +350,16 @@ footer a {
 
 select {
     padding: 7px 10px;
-    /* box-shadow: 1px 1px 1px gray; */
     background-color: #050505;
     border-style: none;
     color: white;
     outline-style: none;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    
 }
 
 .footer-flex-container {
     display: flex;
-    /* justify-content:space-around; */
     align-items: center;
     flex-wrap: wrap;
-    /* gap: 100px; */
     margin-bottom: 30px;
     margin-right: 150px;
 }
@@ -437,7 +410,6 @@ select {
     margin-bottom: 50px;
     margin-left: 0px;
     text-align: center;
-    /* width: 90%; */
 }
 
 .aside-margin-bottom {
@@ -456,7 +428,6 @@ select {
 
   .bottom-btn-header {
     width: 90vw;
-    /* text-align: center; */
   }
 
 
