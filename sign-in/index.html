@@ -4,6 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Netflix Login</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -20,16 +28,28 @@
         <!-- <h3>Sign In</h3> -->
 
         <!-- form section -->
-        <form action="#" class="container-form">
+        <form action="#" class="container-form" id="container-form">
           <h3 class="form-heading">Sign in</h3>
+          <label for="email"></label>
           <input
-            type="text"
+            type="email"
             name=""
-            id=""
+            id="email"
             placeholder="Email or phone number"
+            required
           />
-          <input type="password" name="" id="" placeholder="Password" />
-          <button type="submit">Sign in</button>
+          <p id="emailError"></p>
+          <label for="password"></label>
+          <input
+            type="password"
+            name=""
+            id="password"
+            placeholder="Password"
+            required
+          />
+          <i class="fa-solid fa-eye-slash" id="toggle-password"></i>
+          <p id="passwordError"></p>
+          <button class="signin-btn" type="submit">Sign in</button>
 
           <div class="form-btm-text">
             <div class="checkbox-text">
@@ -37,6 +57,13 @@
               <label for="remember-me">Remember me</label>
             </div>
             <p><a href="">Need help?</a></p>
+          </div>
+
+          <div class="success-msg-container">
+            <p id="msg" class="msg">
+              You have provided the correct details and your form will be
+              processed
+            </p>
           </div>
 
           <div class="form-bottom-text">
@@ -82,5 +109,7 @@
         </div>
       </footer>
     </main>
+
+    <script src="script.js"></script>
   </body>
 </html>

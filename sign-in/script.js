@@ -64,16 +64,14 @@ password.addEventListener("focusout", (e)=>{
 
 /////// Password Toggle Visibility
 
+const togglePassword = document.querySelector('#togglePassword');
+  
 
+  togglePassword.addEventListener('click', function (e) {
+    // toggle the type attribute
+    const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
+    password.setAttribute('type', type);
+    // toggle the eye slash icon
+    this.classList.toggle('fa-eye');
+});
 
-
-
-// const passwordToggle = getElementById('password-toggle');
-
-// function passwordVisibility() {
-//     if (passwordToggle == password) {
-//         passwordToggle.type 
-//     } else {
-        
-//     }
-// }

@@ -19,7 +19,7 @@ main {
     color: white;
 }
 /* a {
-    color: white;
+    color: blue;
 } */
 
 nav img {
@@ -43,6 +43,8 @@ section {
     background-color:rgba(0, 0, 0, 0.9);
     min-height: 100vh;
 }
+
+
 
 .container-form > input {
     width: 60%;
@@ -86,10 +88,10 @@ section {
     gap: 15px;
 }
 
+
 .form-heading {
-    position: relative;
-    top: -40px;
-    right: 95px;
+    width: 60%;
+    margin-bottom: 30px;
     font-weight: bolder;
     font-size: 50px;
 }
@@ -130,3 +132,57 @@ footer {
 .flexed-items > div {
     margin-bottom: 10px;
 }
+
+
+/* javascript validation */
+
+/* .error #emailError,
+.error #passwordError {
+  color: #e87c03;
+  position: relative;
+  bottom: 15px;
+  text-align: left;
+}
+.error #emailError {
+    right: 25px;
+}
+.error #passwordError {
+    right: 19px;
+    
+} */
+
+.error #emailError,
+.error #passwordError {
+    width: 60%;
+    position: relative;
+  bottom: 15px;
+  color: #e87c03;
+}
+
+/* #password, #email {
+    position: relative;
+} */
+.error input {
+  border-bottom: 3px solid #e87c03;
+}
+
+
+
+.msg {
+    display: none;
+  }
+  
+
+
+  /* Password Toggle Visibility */
+
+  .container-form i {
+    margin-left: -30px;
+    
+}
+
+#toggle-password {
+    cursor: pointer;
+}
+
+  
